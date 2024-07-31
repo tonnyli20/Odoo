@@ -76,7 +76,7 @@ sudo apt install git python3-pip python3-dev libxml2-dev libxslt1-dev zlib1g-dev
 sudo apt-get install libpq-dev npm -y
 sudo ln -s /usr/bin/nodejs /usr/bin/node
 sudo npm install -g less less-plugin-clean-css
-sudo apt-get install -y node-less
+sudo apt-get install node-less -y
 #--------------------------------------------------
 # Install PostgreSQL Server
 #--------------------------------------------------
