@@ -5,7 +5,7 @@ server {
   listen 443;
 
   # set proper server name after domain set
-  server_name vpn.49tek.com;
+  server_name xxx.xxxx.com;
 
   # Add Headers for odoo proxy mode
   proxy_set_header X-Forwarded-Host $host;
@@ -85,7 +85,7 @@ server {
   listen 443;
 
   # set proper server name after domain set
-  server_name erp.49tek.com;
+  server_name xxx.xxxx.com;
 
   # Add Headers for odoo proxy mode
   proxy_set_header X-Forwarded-Host $host;
